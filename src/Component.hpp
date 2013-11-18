@@ -8,8 +8,8 @@
 #define COMPONENT_H
 
 
-#include <base/Eigen.hpp>
-#include <base/Pose.hpp>
+#include "Eigen.hpp"
+#include "Pose.hpp"
 
 #include <boost/smart_ptr.hpp>
 #include <boost/make_shared.hpp>

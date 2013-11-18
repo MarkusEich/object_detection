@@ -1,8 +1,8 @@
 #ifndef OBJECT_DETECTION_BLOB_HPP__
 #define OBJECT_DETECTION_BLOB_HPP__
 
-#include <base/Time.hpp>
-#include <base/Eigen.hpp>
+#include "Time.hpp"
+#include "Eigen.hpp"
 #include <vector>
 
 namespace object_detection

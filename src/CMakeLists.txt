@@ -15,12 +15,15 @@ rock_library(object_detection
         Plane.cpp
         Hole.cpp    
     HEADERS 
+        Eigen.hpp
+        Time.hpp
+        Pose.hpp
 	Configuration.hpp
 	PointCloudConfiguration.hpp
         Blob.hpp
-    BlobDetection.hpp
+	BlobDetection.hpp
         PointCloudDetection.hpp
-    Objects.hpp        
+	Objects.hpp        
         CompoundObject.hpp
         SpacebotBase.hpp
         SpacebotBattery.hpp
@@ -28,7 +31,7 @@ rock_library(object_detection
         Component.hpp
         Plane.hpp
         Hole.hpp
-    DEPS_PKGCONFIG base-types opencv segmentation    
+    DEPS_PKGCONFIG opencv segmentation
     #This is a problem if multiple versions are installed
     #should take a defined version
     #DEPS_CMAKE PCL 

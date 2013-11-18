@@ -1,9 +1,8 @@
 #ifndef OBJECT_DETECTION_OBJECTS_HPP__
 #define OBJECT_DETECTION_OBJECTS_HPP__
 
-#include <base/Eigen.hpp>
+#include "Pose.hpp"
 #include <boost/shared_ptr.hpp>
-#include <base/Pose.hpp>
 #include <stdexcept>
 #include <inttypes.h>
 #include <vector>

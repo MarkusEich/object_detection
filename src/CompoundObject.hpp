@@ -11,7 +11,7 @@
 #include "Hole.hpp"
 
 
-#include <base/Pose.hpp>
+#include "Pose.hpp"
 #include <pcl/pcl_base.h>
 #include <pcl/point_types.h>
 #include <boost/make_shared.hpp>
